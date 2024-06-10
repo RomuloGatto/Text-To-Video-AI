@@ -50,7 +50,7 @@ nvidia-cusparse-cu12==12.1.0.106 ; platform_system == "Linux" and platform_machi
 nvidia-nccl-cu12==2.20.5 ; platform_system == "Linux" and platform_machine == "x86_64" and python_version >= "3.11" and python_version < "4.0"
 nvidia-nvjitlink-cu12==12.5.40 ; platform_system == "Linux" and platform_machine == "x86_64" and python_version >= "3.11" and python_version < "4.0"
 nvidia-nvtx-cu12==12.1.105 ; platform_system == "Linux" and platform_machine == "x86_64" and python_version >= "3.11" and python_version < "4.0"
-openai-whisper @ git+https://github.com/openai/whisper.git@HEAD ; python_version >= "3.11" and python_version < "4.0"
+openai-whisper @ git+https://github.com/openai/whisper.git@main ; python_version >= "3.11" and python_version < "4.0"
 openai==1.33.0 ; python_version >= "3.11" and python_version < "4.0"
 orjson==3.10.3 ; python_version >= "3.11" and python_version < "4.0"
 pillow==10.3.0 ; python_version >= "3.11" and python_version < "4.0"
