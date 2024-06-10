@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Install necessary packages
 apk add --no-cache sudo bash ca-certificates wget xz make gcc linux-headers alpine-baselayout=3.2.0-r22
 
