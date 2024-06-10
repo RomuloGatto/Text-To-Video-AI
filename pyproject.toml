@@ -14,8 +14,9 @@ moviepy = "^1.0.3"
 edge-tts = "^6.1.12"
 fastapi = "^0.111.0"
 pydantic = "^2.7.3"
+torch = {version = ">=2.0.0, !=2.0.1, !=2.1.0"}
 openai-whisper = {git = "https://github.com/openai/whisper.git"}
-
+whisper-timestamped = {git = "https://github.com/linto-ai/whisper-timestamped"}
 
 [build-system]
 requires = ["poetry-core"]
