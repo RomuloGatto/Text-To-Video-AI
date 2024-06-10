@@ -1,3 +1,4 @@
+apk upgrade
 apk add sudo bash ca-certificates wget xz make gcc linux-headers 
 apk add alpine-baselayout=3.2.0-r22
 wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub
