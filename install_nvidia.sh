@@ -8,8 +8,6 @@ wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.35-r1/glib
 wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.35-r1/glibc-i18n-2.35-r1.apk 
 apk add glibc-2.35-r1.apk glibc-bin-2.35-r1.apk glibc-dev-2.35-r1.apk glibc-i18n-2.35-r1.apk --force-overwrite 
 /usr/glibc-compat/bin/localedef -i en_US -f UTF-8 en_US.UTF-8 
-wget http://us.download.nvidia.com/XFree86/Linux-x86_64/390.77/NVIDIA-Linux-x86_64-390.77.run
-chmod +x NVIDIA-Linux-x86_64-390.77.run
 bash NVIDIA-Linux-x86_64-390.77.run --check 
 bash NVIDIA-Linux-x86_64-390.77.run --extract-only 
 cd NVIDIA-Linux-x86_64-390.77 && ./nvidia-installer
