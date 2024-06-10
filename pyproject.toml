@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "text-to-video-ai"
+version = "0.1.0"
+description = ""
+authors = ["Romulo Gatto <romulo.gatto@gmail.com>"]
+readme = "README.md"
+packages = [{include = "text_to_video_ai"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai-whisper = {git = "https://github.com/openai/whisper.git"}
+openai = "^1.33.0"
+requests = "^2.32.3"
+moviepy = "^1.0.3"
+edge-tts = "^6.1.12"
+fastapi = "^0.111.0"
+pydantic = "^2.7.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
